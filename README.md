@@ -23,7 +23,46 @@ The Country API Middleware is a secure Node.js service that interfaces with Rest
     
 5.  Response returned to frontend in standardized format
     
+### Architectural Decisions
 
+*   Clear separation of concerns
+    
+*   Middleware pipeline for cross-cutting concerns
+    
+*   Service layer for external API integration
+    
+*   Repository pattern for data access
+    
+*   RESTful API design principles
+  
+### Security Implementation
+
+*   Password hashing with bcrypt
+    
+*   CSRF protection for forms
+    
+*   Rate limiting (100 requests/15 mins)
+    
+*   API key authentication
+    
+*   Session management with secure cookies
+
+*   Input validation on all endpoints
+
+*   Helmet for security headers
+
+*   CORS restricted to frontend origin
+
+### Performance Considerations
+
+*   Rate limiting to prevent exhaustion
+    
+*   Efficient database queries with proper indexing
+    
+*   Async/await for non-blocking operations
+    
+*   Connection pooling for database
+  
 Technical Stack
 ---------------
 
