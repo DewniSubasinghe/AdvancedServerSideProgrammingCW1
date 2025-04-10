@@ -5,7 +5,7 @@ System Architecture
 
 ### Overview
 
-The Country API Middleware is a secure Node.js service that interfaces with RestCountries.com, providing filtered country data with authentication and API key management.
+The Country API Middleware is a secure Node.js service that interfaces with RestCountries.com, providing filtered country data with authentication and API key management. This follows MVC (Model View Controller) Architecture.
 
 ### Architecture Diagram
 
